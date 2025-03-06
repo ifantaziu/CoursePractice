@@ -7,8 +7,8 @@ public class TaxCalculator {
         int quantity = 7;
         double total = price * quantity * tax;
         System.out.println("Total taxes = " + total);
-        System.out.println("Total cost with taxe is = " + (price*quantity + total));
-        System.out.println("Total cost with taxe is = " + (price*quantity * (1+tax)));
+        System.out.println("Total cost with taxe is = " + (price * quantity + total));
+        System.out.println("Total cost with taxe is = " + (price * quantity * (1 + tax)));
 
 
     }
